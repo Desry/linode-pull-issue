@@ -12,7 +12,8 @@
     "resultCsvTextQualifier": "",
     "rowsVariableLevel": "SELF",
     "selectResultAction": "FIRST_ROW_AS_VARIABLES",
-    "statement": "select * from anow.processing where domain='DES';",
+    "selectResultVariableLevel": "SELF",
+    "statement": "select * from anow.processing where domain='DES2';",
     "statementType": "SELECT"
   }
 }
