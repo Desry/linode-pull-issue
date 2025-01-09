@@ -9,6 +9,6 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "print(\"hello\")"
+    "script": "print(\"hello universe!\")"
   }
 }
