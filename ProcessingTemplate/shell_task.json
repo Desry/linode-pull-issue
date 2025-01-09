@@ -9,6 +9,6 @@
   "customFieldValues": {
   },
   "processingCommand": {
-    "script": "sleep 5\necho 'hellooooooo'"
+    "script": "sleep 5\necho 'beep bop'"
   }
 }
