@@ -1,0 +1,18 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "POSTGRESQL",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "RDBMS_SQL_STATEMENT",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "resultCsvTextQualifier": "",
+    "rowsVariableLevel": "SELF",
+    "selectResultAction": "FIRST_ROW_AS_VARIABLES",
+    "statement": "select * from anow.processing where domain='DES';",
+    "statementType": "SELECT"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "owner": "api_user",
+  "priority": "0",
+  "processingType": "TASK",
+  "serverNodeType": "WINDOWS",
+  "statisticMethod": "AVERAGE",
+  "statisticPeriod": "MONTH",
+  "taskType": "POWERSHELL",
+  "customFieldValues": {
+  },
+  "processingCommand": {
+    "script": "Get-Process | Select-Object Name, Id, CPU"
+  }
+}
